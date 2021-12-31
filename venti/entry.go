@@ -3,7 +3,7 @@ package venti
 import (
 	"fmt"
 
-	"sigint.ca/fs/internal/pack"
+	"github.com/floren/fs/internal/pack"
 )
 
 const (

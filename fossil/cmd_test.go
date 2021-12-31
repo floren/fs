@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigint.ca/fs/fossil/console"
+	"github.com/floren/fs/fossil/console"
 )
 
 func TestCmd(t *testing.T) {

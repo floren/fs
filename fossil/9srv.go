@@ -8,8 +8,8 @@ import (
 	"sync"
 	"syscall"
 
-	"sigint.ca/fs/fossil/console"
-	"sigint.ca/fs/internal/p9p"
+	"github.com/floren/fs/fossil/console"
+	"github.com/floren/fs/internal/p9p"
 )
 
 type Srv struct {

@@ -1,4 +1,4 @@
-package venti // import "sigint.ca/fs/venti"
+package venti // import "github.com/floren/fs/venti"
 import (
 	"fmt"
 	"os"

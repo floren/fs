@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"sigint.ca/fs/internal/pack"
+	"github.com/floren/fs/internal/pack"
 )
 
 func (z *Session) rpc(tx, rx *fcall) error {

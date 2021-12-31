@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"sigint.ca/fs/internal/pack"
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/internal/pack"
+	"github.com/floren/fs/venti"
 )
 
 // estimate of bytes per dir entries - determines number

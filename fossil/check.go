@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/venti"
 )
 
 type Fsck struct {
@@ -560,7 +560,7 @@ func scanSource(chk *Fsck, name string, r *Source) {
 		}
 
 		if b.addr != NilBlock && getBit(chk.errmap, b.addr) != 0 {
-			chk.warnf("previously reported error in block %ux is in file %s", b.addr, name)
+			chk.warnf("previously reported error in block %x is in file %s", b.addr, name)
 		}
 
 		b.put()
@@ -617,7 +617,7 @@ func chkDir(chk *Fsck, name string, source, meta *Source) {
 			dprintf("source %v:%d block %d addr %d\n", &source.score, source.offset, o, b.addr)
 		}
 		if b.addr != NilBlock && getBit(chk.errmap, b.addr) != 0 {
-			chk.warnf("previously reported error in block %ux is in %s", b.addr, name)
+			chk.warnf("previously reported error in block %x is in %s", b.addr, name)
 		}
 		mb, err := unpackMetaBlock(b.data, meta.dsize)
 		if err != nil {

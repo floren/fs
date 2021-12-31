@@ -4,7 +4,7 @@
 
 package main
 
-import "sigint.ca/fs/venti"
+import "github.com/floren/fs/venti"
 
 /* tree walker, for gc and archiver */
 type WalkPtr struct {

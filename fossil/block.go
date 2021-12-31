@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"sync"
 
-	"sigint.ca/fs/fossil/console"
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/fossil/console"
+	"github.com/floren/fs/venti"
 )
 
 /* tunable parameters - probably should not be constants */

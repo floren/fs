@@ -8,7 +8,7 @@ set -e
 cd $(dirname $0)
 
 echo "building"
-go install -race sigint.ca/fs/fossil
+go install -race github.com/floren/fs/fossil
 
 export venti=127.0.0.1
 export NAMESPACE=$(pwd)

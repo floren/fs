@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"sigint.ca/fs/fossil/console"
+	"github.com/floren/fs/fossil/console"
 )
 
 func TestParseAname(t *testing.T) {

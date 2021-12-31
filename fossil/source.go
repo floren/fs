@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"sync"
 
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/venti"
 )
 
 /*

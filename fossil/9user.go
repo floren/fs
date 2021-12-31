@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"sigint.ca/fs/fossil/console"
+	"github.com/floren/fs/fossil/console"
 )
 
 const (

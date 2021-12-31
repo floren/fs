@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"sigint.ca/fs/internal/plan9"
+	"github.com/floren/fs/internal/plan9"
 )
 
 /* one entry buffer for reading directories */

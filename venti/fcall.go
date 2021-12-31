@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"sigint.ca/fs/internal/pack"
+	"github.com/floren/fs/internal/pack"
 )
 
 const (

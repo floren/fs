@@ -81,7 +81,7 @@ func (z *Session) connect() error {
 }
 
 func (z *Session) negotiateVersion() error {
-	out := "venti-" + strings.Join(supportedVersions, ":") + "-sigint.ca/fs/venti\n"
+	out := "venti-" + strings.Join(supportedVersions, ":") + "-github.com/floren/fs/venti\n"
 	if _, err := z.c.Write([]byte(out)); err != nil {
 		return fmt.Errorf("write version: %v", err)
 	}

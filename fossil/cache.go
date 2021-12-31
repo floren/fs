@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/venti"
 )
 
 const BadHeap = ^uint32(0)

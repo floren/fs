@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"sigint.ca/fs/internal/plan9"
+	"github.com/floren/fs/internal/plan9"
 )
 
 // rpc return values

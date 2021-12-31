@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/venti"
 )
 
 type Arch struct {

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sort"
 
-	"sigint.ca/fs/internal/pack"
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/internal/pack"
+	"github.com/floren/fs/venti"
 )
 
 const (

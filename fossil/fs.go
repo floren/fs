@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"sigint.ca/fs/venti"
+	"github.com/floren/fs/venti"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"unicode"
 
-	"sigint.ca/fs/fossil/console"
+	"github.com/floren/fs/fossil/console"
 )
 
 var foptname string = "/none/such"

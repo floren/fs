@@ -11,8 +11,8 @@ import (
 	"sync"
 	"syscall"
 
-	"sigint.ca/fs/fossil/console"
-	"sigint.ca/fs/internal/plan9"
+	"github.com/floren/fs/fossil/console"
+	"github.com/floren/fs/internal/plan9"
 )
 
 var cmdbox struct {
